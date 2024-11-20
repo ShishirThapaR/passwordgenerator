@@ -26,4 +26,4 @@ amount = 1
 
 for x in range(amount):
     password = "".join(random.sample(all, length))
-    print(password)
+    print("Your Rnadom Password is:" + password)
